@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+         label{
+         width: 200px;
+         display: inline-block;
+         }
+        table
+        {
+          
+            display: inline-flex;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        
+      </style>
+    </style>
+</head>
+<body>
+    <div style="display: inline-block;border: 1px solid gray; padding: 60px;background-color: gray;">
+    <h1 style="text-align: center;"> STUDENT REGISTRATION FORM</h1>
+    <div style="border: 1px solid black;padding: 10px; background-color: red;">
+    <label ><b>FIRST NAME</b></label>
+    <input type="text" placeholder="Enter Your Name" ><br><br>
+    <label ><b>LAST NAME</b></label>
+    <input type="text" placeholder="EnteR last name" ><br><br>
+    <label ><b>MOBILE NUMBER</b></label>
+    <input type="text" placeholder="EntER your mobile number" ><br><br>
+
+    <label ><b>EMAIL ID</b></label>
+    <input type="email" placeholder="Enter Email" ><br><br>
+    <label ><b>DATE OF BIRTH</b></label>
+    
+        <select name="month">
+            <option value="01">month:</option>
+           <option value="01">January</option>
+           <option value="02">February</option>
+           <option value="03">March</option>
+           <option value="04">April</option>
+           <option value="05">May</option>
+           <option value="06">June</option>
+           <option value="07">July</option>
+           <option value="08">August</option>
+           <option value="09">September</option>
+           <option value="10">October</option>
+           <option value="11">November</option>
+           <option value="12">December</option>
+        </select> 
+   
+   <span>
+        <select name="day">
+             <option value="01">day:</option>
+             <option value="01">1</option>
+             <option value="02">2</option>
+             <option value="03">3</option>
+             <option value="04">4</option>
+             <option value="05">5</option>
+             <option value="06">6</option>
+             <option value="07">7</option>
+             <option value="08">8</option>
+             <option value="09">9</option>
+             <option value="10">10</option>
+             <option value="11">11</option>
+             <option value="12">12</option>
+             <option value="13">13</option>
+             <option value="14">14</option>
+             <option value="15">15</option>
+             <option value="16">16</option>
+             <option value="17">17</option>
+             <option value="18">18</option>
+             <option value="19">19</option>
+             <option value="20">20</option>
+             <option value="21">21</option>
+             <option value="22">22</option>
+             <option value="23">23</option>
+             <option value="24">24</option>
+             <option value="25">25</option>
+             <option value="26">26</option>
+             <option value="27">27</option>
+             <option value="28">28</option>
+             <option value="29">29</option>
+             <option value="30">30</option>
+             <option value="31">31</option>
+        </select>
+   </span>
+   <span>
+        <select name="year">
+             <option value="2030">year:</option>
+             <option value="2029">2029</option>
+             <option value="2028">2028</option>
+             <option value="2027">2027</option>
+             <option value="2026">2026</option>
+             <option value="2025">2025</option>
+             <option value="2024">2024</option>
+             <option value="2023">2023</option>
+             <option value="2022">2022</option>
+             <option value="2021">2021</option>
+             <option value="2020">2020</option>
+             <option value="2019">2019</option>
+             <option value="2018">2018</option>
+             <option value="2017">2017</option>
+        </select> 
+   </span><br><br><br>
+        
+    <label for=""  ><b>ADDRESS</b></label>
+    <textarea name="" id="ee" cols="20" rows="3" ></textarea><br><br>
+    <label for=""><b>CITY</b></label>
+    <input type="text" placeholder="enter your city"><br><br> 
+    <label for=""><b>PINCODE</b></label>
+    <input type="number" placeholder="enter your pincode"> <br><br>
+    <label for=""><b>STATE</b></label>
+    <input type="text" placeholder="enter your state"><br><br>
+    <label for=""><b>COUNTRY</b></label>
+    <input type="text" placeholder="enter your COUNTRY"><br><br>
+    <label for=""><b>QUALIFICATION</b></label>
+    <table style="border: 6px solid black;padding: 5px;">
+        <tr>
+            
+                <th>SI.NO</th>
+                <th>EXAMINATION</th>
+                <th>BOARD</th>
+                <th>PERCENTAGE</th>
+                <th>YEAR OF PASSING</th>
+            
+            </tr>
+            <tr>
+                <td >1</td>
+                <td>class X</td>
+                <td><input type="text" placeholder="Enter Your Board"></td>
+                <td><input type="text" placeholder="Enter Your sslc percentage"></td>
+                <td><input type="text" placeholder="Passed Out Year"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>class XII</td>
+                <td><input type="text" placeholder="Enter Your Board"></td>
+                <td><input type="text" placeholder="Enter your HSC percentage"></td>
+                <td><input type="text" placeholder="Passed Out Year"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Graduvation</td>
+                <td><input type="text" placeholder="Enter Your Board"></td>
+                <td><input type="text" placeholder="Enter your UG percnetage"></td>
+                <td><input type="text" placeholder="Passed Out Year"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Masters</td>
+                <td><input type="text" placeholder="Enter Your Board"></td>
+                <td><input type="text" placeholder="Enter your PG percentage"></td>
+                <td><input type="text" placeholder="Passed Out Year"></td>
+            </tr>
+    </table><br><br>
+    <label ><b>COURSE APPLICATION</b></label>
+    <select name="year">
+        <option value="2030">select course</option>
+    </select><br><br>
+    <label ><b>HOBBIES</b></label>
+         <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">Dancing
+       
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">Cycling
+        
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">Singing
+        
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">Others
+        
+        <input type="text" id="vehicle3" name="vehicle3"  placeholder="enter your others">
+</div>
+      </div>
+
+    
+    
+    
+    
+    
+    
+</body>
+</html>
